@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>crearPersonas</title>
+    <!-- CSS -->
+    <style>
+        *{box-sizing:border-box;}
+        body {
+          background-image: url('fondo.jpg');
+        }
+        form{
+	        width:300px;
+	        padding:20px;
+          border-radius:10px;    
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          background: linear-gradient(to top right, #00cc99 25%, #0099ff 94%);
+          box-shadow: 10px 20px 45px #000;
+        }       
+        form label{
+	        width:72px;
+	        font-weight:bold;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: large;
+          color: rgb(250, 252, 255);
+	        display:inline-block;
+        }
+        form button{   
+          width:50%;
+          cursor: pointer;
+          font-size: 16px;
+	        padding:10px 1px;
+          margin-left: auto;
+          margin-right: auto;
+	        margin-bottom: 8px;
+          margin-top: 10px;
+          border:2px solid rgb(255, 255, 255);
+          border-radius:10px;
+          display:block;
+          color:#fff;
+          background-color:rgb(17, 94, 139);
+        }
+        form input[type="text"],[type="number"]{
+	        width:100%;
+	        padding:10px 5px;
+	        margin-top:5px;
+	        border:1.8px solid rgb(255, 255, 255);
+	        border-radius:5px;
+	        display:block;
+	        color:rgb(0, 0, 0);
+	        background-color:rgb(222, 232, 248);     
+        } 
+    </style>
+  </head>
+  <!-- HTML -->
+  <body>
+    <form id="f">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" placeholder="Ingresa tu nombre"/>
+      <br />
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" placeholder="Ingresa tu apellido"/>
+      <br />
+      <label for="dni">DNI:</label>
+      <input type="number" id="dni" placeholder="Ingresa DNI"/>
+      <br />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+  <!-- JavaScript -->
+  <script>
+    //Obtener los valores de los inputs del forms
+    document.getElementById('f').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const nombre = document.getElementById('nombre').value;
+      const apellido = document.getElementById('apellido').value;
+      const dni = parseInt(document.getElementById('dni').value);
+      //POST a Firebase
+      fetch('http://localhost:3000', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ nombre, apellido, dni }),
+      })
+        .then((res) => res.json())
+        .then((body) => console.log(body));
+    });
+  </script>
+</html>
