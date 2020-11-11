@@ -19,7 +19,7 @@
 
 ## Ejercicio 3
 
-En este ejercicio se requirió instalar POSTMAN para realizar los soguientes icisos:
+En este ejercicio se requirió instalar POSTMAN para realizar los soguientes incisos:
 
 1. Realizar un request GET a la URL: `https://reclutamiento-14cf7.firebaseio.com/personas.json`
 RESOLUCIÓN: Realicé un request GET a la URL solicitada, lo que regresó fue la BD de Firebase en formato JSON. 
