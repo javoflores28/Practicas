@@ -49,7 +49,7 @@
 4.	**¿Qué es un queryString? (En el contexto de una url)**
     <details>
     <summary>RESPUESTA:</summary>
-    <p>  Es una cadena de consulta,  son los datos que se envían a través de la URL al realizar un request a una página web. Esto para que el servidor web pueda acceder     y manejar la información. </p>
+    <p>  Es una cadena de consulta,  son los datos que se envían a través de la URL al realizar un request a una página web. Esto para que el servidor web pueda acceder     y manejar la información. Después del símbolo ? aparecen parejas de datos enviados. </p>
     </details>
 
 5.	**¿Qué es el responseCode? ¿Qué significado tiene los posibles valores devueltos?**
