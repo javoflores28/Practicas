@@ -12,14 +12,14 @@
 
 ## Ejercicio 2 / RESPUESTAS
 
-1.	**¿Qué es un servidor HTTP?** 
+**1.	¿Qué es un servidor HTTP?** 
     <details>
     <summary>RESPUESTA:</summary>
     <p>Un servidor HTTP es un programa que procesa una aplicación del lado del servidor para realizar conexiones con el cliente. Este servidor se encarga de enviar         peticiones desde la conexión del cliente hasta el sistema que gestiona las peticiones para transmitir una respuesta al cliente a través de una conexión TCP. El     código recibido por el cliente se procesa a través de un navegador web (URLs) y se trasmite mediante un protocolo, generalmente HTTP.
     </p>
     </details>
 
-2.	**¿Qué son los verbos HTTP? Mencionar los más conocidos**
+**2.	¿Qué son los verbos HTTP? Mencionar los más conocidos**
     <details>
     <summary>RESPUESTA:</summary>
     <p>Son métodos de solicitudes especificas que utilizan el servicio de integración de datos en el mensaje de solicitud. Estos verbos/métodos permiten comunicar al       servidor lo que se requiere realizar con un recurso mediante una URL. Los más importantes (sobre todo para hacer aplicaciones REST) son los siguientes:
