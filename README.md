@@ -115,22 +115,19 @@
     
     <ins>Un objeto:</ins>  conjunto desordenado de pares nombre/valor. Un objeto comienza con `{`  y termine con `}` . Cada nombre es seguido por `:` y los pares       nombre/valor están separados por una `,` 
     
-        ```
         
         { "persona": {"nombre":"Javier", "profesión":"Estudiante", "ciudad":"México"}}
         
-        ```
+        
 
     <ins>Un array:</ins> Una colección de valores que comienza con `[` y termina con `]` y los valores se separan por una `,`
     
-        ```
         
         { "persona": [
                     {"nombre":"Javier", "profesión":"Estudiante", "ciudad":"México"},
                     { "nombre": "Arturo", “profesión":"Estudiante"}
         ]}
         
-        ```
     
     <ins>Un valor:</ins> Puede ser una cadena de caracteres con comillas dobles, o un número, o true o false o null, o un objeto o un array. Estas estructuras          pueden             anidarse. 
     
