@@ -67,8 +67,6 @@
     </p>
     </details>
 
-    
-
 
 6.	**¿Cómo se envía data en un Get y cómo en un POST?** 
     <details>
