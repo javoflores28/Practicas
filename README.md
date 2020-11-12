@@ -126,7 +126,7 @@
                     {"nombre":"Javier", "profesión":"Estudiante", "ciudad":"México"},
                     { "nombre": "Arturo", “profesión":"Estudiante"}
         ]}
-       ```
+        ```
     
     <ins>Un valor:</ins> Puede ser una cadena de caracteres con comillas dobles, o un número, o true o false o null, o un objeto o un array. Estas estructuras          pueden             anidarse. 
     
@@ -139,7 +139,6 @@
        "modal": true,
        "botones": ["ok", "cancel"]}}
        ```
-    
     </p>
     </details>
 
