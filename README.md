@@ -127,7 +127,6 @@
         { "persona": {"nombre":"Javier", "profesión":"Estudiante", "ciudad":"México"}}
         
         
-
    <ins>Un array:</ins> Una colección de valores que comienza con `[` y termina con `]` y los valores se separan por una `,`
     
         
@@ -172,11 +171,10 @@
          <titulo>Recordatorio</titulo>
          <contenido>A las 7:00 pm en la puerta del teatro</contenido>
     </nota>
-    
     ```
    <br/>
     
-    <ins>**Ejemplo sin prólogo:**</ins>
+   <ins>**Ejemplo sin prólogo:**</ins>
      
     ```
     <libreria>
@@ -187,33 +185,32 @@
     		<precio>39.95</precio>
     	 </libro>
     </libreria>
-    
     ```
     
-    </p>
+    
+   </p>
+   </details>
+
+
+**9.	Explicar brevemente el estándar SOAP**
+    <details>
+    <ummary>RESPUESTA:</summary>
+    <p>
+      
+   **SOAP** es un estándar basado en XML para la transmisión de mensajes en HTTP y otros protocolos de Internet. Es un protocolo ligero para el intercambio de         información en un entorno descentralizado y distribuido. Se basa en XML y consta de tres partes:
+    
+   <ul>
+   <li>Un sobre que define una infraestructura para describir el contenido del mensaje y cómo procesarlo.</li>
+   <li>Un conjunto de normas de codificación para expresar instancias de tipos de datos definidos por la aplicación.</li>
+   <li>Una convención para representar llamadas y respuestas a procedimiento remoto.</li>  
+   </ul>	
+   <br/>
+
+   **SOAP** permite el enlace y la utilización de servicios Web encontrados definiendo una ruta de mensaje para el direccionamiento de mensajes. Se puede utilizar     SOAP para consultar UDDI para servicios Web.</p>
     </details>
 
 
-9.	**Explicar brevemente el estándar SOAP**
-    <details>
-    <summary>RESPUESTA:</summary>
-    <p>
-      
-    **SOAP** es un estándar basado en XML para la transmisión de mensajes en HTTP y otros protocolos de Internet. Es un protocolo ligero para el intercambio de         información en un entorno descentralizado y distribuido. Se basa en XML y consta de tres partes:
-    
-    <ul>
-    <li>Un sobre que define una infraestructura para describir el contenido del mensaje y cómo procesarlo.</li>
-    <li>Un conjunto de normas de codificación para expresar instancias de tipos de datos definidos por la aplicación.</li>
-    <li>Una convención para representar llamadas y respuestas a procedimiento remoto.</li>  
-    </ul>	
-    <br/>
-
-    **SOAP** permite el enlace y la utilización de servicios Web encontrados definiendo una ruta de mensaje para el direccionamiento de mensajes. Se puede utilizar     SOAP para consultar UDDI para servicios Web.</p>
-         </details>
-
-
-
-10.	**Explicar brevemente el estándar REST Full**
+**10.	Explicar brevemente el estándar REST Full**
     <details>
     <summary>RESPUESTA:</summary>
     <p>
