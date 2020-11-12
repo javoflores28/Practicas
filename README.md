@@ -173,10 +173,10 @@
     ```
     <libreria>
     	 <libro categoría="WEB">
-    		 <título lang="en">Learning XML</título>
-    		 <autor>Erik T. Ray</autor>
-    		 <año>2003</año>
-    		 <precio>39.95</precio>
+    		<título lang="en">Learning XML</título>
+    		<autor>Erik T. Ray</autor>
+    		<año>2003</año>
+    		<precio>39.95</precio>
     	 </libro>
     </libreria>
     
