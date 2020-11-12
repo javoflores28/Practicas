@@ -244,7 +244,9 @@
 
 **RESOLUCIÓN:** Realicé un request GET a la URL solicitada, lo que regresó fue la BD de Firebase en formato JSON.
 Screenshot:
-![GET1](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/GET-1.png) 
+<div align="center">
+    <img src="https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/GET-1.png" width="600px"</img> 
+</div>
 
 2. Realizar un request POST a la URL anterior, y con body:
 {
@@ -256,11 +258,10 @@ Screenshot:
 
 **RESOLUCIÓN:** Realicé un POST a la URL ingresando mi nombre, apellido y un dni, esto me regresó el Id de mi nombre y se realizó el envío de los datos que ingrese a la BD.
 Screenshot:
-
 <div align="center">
-    <img src="https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/POST1.png" width="400px"</img> 
+    <img src="https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/POST1.png" width="600px"</img> 
 </div>
-<img src="https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/POST1.png" width="500" height="300"/>
+
 
 3. Realizar nuevamente un request GET a la URL: `https://reclutamiento-14cf7.firebaseio.com/personas.json` ¿Qué diferencias se observan?
 
