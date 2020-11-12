@@ -157,9 +157,11 @@
    **XML (Extensible Markup Language):** Es un metalenguaje, un estándar que estructura el intercambio de información entre las diferentes plataformas, que define     un conjunto de reglas para la codificación de documentos. XML está constituido por dos estructuras:
 
    - **Prólogo (opcional):** contiene una secuencia de instrucciones de procesamiento y/o declaración del tipo de documento. Se puede dividir en dos partes:
-        - Declaración XML: Establece la versión de xml, el tipo de codificación y si es un documento autónomo.                                                            
+        - Declaración XML: Establece la versión de xml, el tipo de codificación y si es un documento autónomo.                                                        
+        
         - Declaración de tipo de documento: Establece el tipo de documento que es.
-    - **Cuerpo:** es el contenido de información del documento, organizado como un árbol único de elementos marcados.
+        
+   - **Cuerpo:** es el contenido de información del documento, organizado como un árbol único de elementos marcados.
     <br/>
     
    <ins>**Ejemplo con prólogo:**</ins>
@@ -177,7 +179,7 @@
     
    <ins>**Ejemplo sin prólogo:**</ins>
      
-    ```
+    
     <libreria>
     	 <libro categoría="WEB">
     		<título lang="en">Learning XML</título>
@@ -186,7 +188,6 @@
     		<precio>39.95</precio>
     	 </libro>
     </libreria>
-    ```
     
     
    </p>
