@@ -76,11 +76,13 @@
     <p>
         
      **GET**: Lleva los datos de forma "visible" al cliente (navegador web). El medio de envío es la URL. Los datos los puede ver cualquiera. El método GET envía la información codificada del usuario en el header del HTTP request, directamente en la URL. La página web y la información codificada se separan por un interrogante ?
+     
     <ul>
     <li>El método GET envía la información en la propia URL, estando limitada a 2000 caracteres.</li>
     <li>La información es visible por lo que con este método nunca se envía información sensible.</li>
     <li>No se pueden enviar datos binarios (archivos, imágenes...).</li> 
     </ul>	
+    
     
     **POST:** Consiste en datos "ocultos" (porque el cliente no los ve) enviados por un formulario cuyo método de envío es post. Es adecuado para formularios. Los  datos no son visibles. Con el método HTTP POST también se codifica la información, pero ésta se envía a través del body del HTTP Request, por lo que no aparece en  la URL.
     
