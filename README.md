@@ -154,7 +154,7 @@
 	- Declaración de tipo de documento: Establece el tipo de documento que es.
     - **Cuerpo:** es el contenido de información del documento, organizado como un árbol único de elementos marcados.
     
-    **Ejemplo con prólogo:** 
+    <ins>**Ejemplo con prólogo:**</ins>
     ```
     <?xml version="1.0" encoding="ISO-8859-1"?>
     <nota>
@@ -165,7 +165,24 @@
     </nota>
     
     ```
-
+    <br/>
+    <ins>**Ejemplo sin prologo:**</ins>
+    ```
+    <libreria>
+    	   <libro categoría="COOKING">
+                  <título lang="en">Italian food</título>
+                  <autor>Giada De Laurentiis</autor>
+                  <año>2005</año>
+                  <precio>30.00</precio>
+    	   </libro>
+    	   <libro categoría="WEB">
+    		  <título lang="en">Learning XML</título>
+    		  <autor>Erik T. Ray</autor>
+    		  <año>2003</año>
+    		  <precio>39.95</precio>
+    	   </libro>
+    </libreria>
+    ```
     </p>
     </details>
 
