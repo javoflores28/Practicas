@@ -33,7 +33,6 @@ Screenshot:
 "apellido":"Tu apellido",
 "dni":11223322
 }
-
 RESOLUCIÓN: Realicé un POST a la URL ingresando mi nombre, apellido y un dni, esto me regresó el Id de mi nombre y se realizó el envío de los datos que ingrese a la BD.
 Screenshot:
 ![alt tag](http://url/to/img.png)  
