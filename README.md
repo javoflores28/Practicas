@@ -24,15 +24,17 @@
     <details>
     <summary>RESPUESTA:</summary>
     <p>Son métodos de solicitudes especificas que utilizan el servicio de integración de datos en el mensaje de solicitud. Estos verbos/métodos permiten comunicar al       servidor lo que se requiere realizar con un recurso mediante una URL. Los más importantes (sobre todo para hacer aplicaciones REST) son los siguientes:
-    **GET:** Se emplea para leer y recuperar representaciones de recursos específicos del servidor, en el caso de una respuesta exitosa devuelve la representación  en un     formato concreto con el cuerpo de la respuesta: HTML, XML, JSON, imágenes, JavaScript, etc. Las peticiones que usan este método sólo deben recuperar datos.         También se puede llegar a utilizar para enviar datos, pero tiene limitaciones. La información es mostrada en la URL. Además, es un método idempotente. 
+       
+    
+   **GET:** Se emplea para leer y recuperar representaciones de recursos específicos del servidor, en el caso de una respuesta exitosa devuelve la representación  en un     formato concreto con el cuerpo de la respuesta: HTML, XML, JSON, imágenes, JavaScript, etc. Las peticiones que usan este método sólo deben recuperar datos.         También se puede llegar a utilizar para enviar datos, pero tiene limitaciones. La información es mostrada en la URL. Además, es un método idempotente. 
 
-    **POST:** Este método se utiliza para enviar datos a un servidor, es utilizado para la creación de recursos. Este método no muestra ninguna información en la URL,       ya que esta oculta. Llamar este método varias veces puede causar efectos secundarios en el servidor, como enviar la misma orden varias veces. 
+   **POST:** Este método se utiliza para enviar datos a un servidor, es utilizado para la creación de recursos. Este método no muestra ninguna información en la URL,       ya que esta oculta. Llamar este método varias veces puede causar efectos secundarios en el servidor, como enviar la misma orden varias veces. 
 
-    **PUT:** Se utiliza para actualizar y crear contenidos, reemplazando la anterior representación del elemento de destino con los datos de la nueva petición, siendo       un método idempotente. Almacena la entidad suministrada en la URL indicado. Si la entidad no existe, se crea. Si la entidad existe, se actualiza.
+   **PUT:** Se utiliza para actualizar y crear contenidos, reemplazando la anterior representación del elemento de destino con los datos de la nueva petición, siendo       un método idempotente. Almacena la entidad suministrada en la URL indicado. Si la entidad no existe, se crea. Si la entidad existe, se actualiza.
 
-    **DELETE:** Este método se utiliza para eliminar un recurso específico de una ubicación dada por la URL.
+   **DELETE:** Este método se utiliza para eliminar un recurso específico de una ubicación dada por la URL.
 
-    **HEAD:** Este método se utiliza para obtener una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta. El servidor responde con líneas y     headers (únicamente los metadatos de la cabecera).
+   **HEAD:** Este método se utiliza para obtener una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta. El servidor responde con líneas y     headers (únicamente los metadatos de la cabecera).
     </p>
     </details>
     
