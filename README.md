@@ -12,15 +12,15 @@ Instalación del ambiente: En este primer ejercicio se pide instalar el ambiente
 
 ## Ejercicio 2 / RESPUESTAS
 
-**1.	¿Qué es un servidor HTTP?
+1.	**¿Qué es un servidor HTTP?**
 
     Un servidor HTTP es un programa que procesa una aplicación del lado del servidor para realizar conexiones con el cliente. Este servidor se encarga de enviar         peticiones desde la conexión del cliente hasta el sistema que gestiona las peticiones para transmitir una respuesta al cliente a través de una conexión TCP. El     código recibido por el cliente se procesa a través de un navegador web (URLs) y se trasmite mediante un protocolo, generalmente HTTP.
 
-**2.	¿Qué son los verbos HTTP? Mencionar los más conocidos**
+2.	**¿Qué son los verbos HTTP? Mencionar los más conocidos**
 
     Son métodos de solicitudes especificas que utilizan el servicio de integración de datos en el mensaje de solicitud. Estos verbos/métodos permiten comunicar al       servidor lo que se requiere realizar con un recurso mediante una URL. Los más importantes (sobre todo para hacer aplicaciones REST) son los siguientes:
 
- **   GET:** Se emplea para leer y recuperar representaciones de recursos específicos del servidor, en el caso de una respuesta exitosa devuelve la representación en un     formato concreto con el cuerpo de la respuesta: HTML, XML, JSON, imágenes, JavaScript, etc. Las peticiones que usan este método sólo deben recuperar datos.         También se puede llegar a utilizar para enviar datos, pero tiene limitaciones. La información es mostrada en el URL. Además, es un método idempotente. 
+    **GET:** Se emplea para leer y recuperar representaciones de recursos específicos del servidor, en el caso de una respuesta exitosa devuelve la representación  en un     formato concreto con el cuerpo de la respuesta: HTML, XML, JSON, imágenes, JavaScript, etc. Las peticiones que usan este método sólo deben recuperar datos.         También se puede llegar a utilizar para enviar datos, pero tiene limitaciones. La información es mostrada en el URL. Además, es un método idempotente. 
 
     POST: Este método se utiliza para enviar datos a un servidor, es utilizado para la creación de recursos. Este método no muestra ninguna información en la URL,       ya que esta oculta. Llamar este método varias veces puede causar efectos secundarios en el servidor, como enviar la misma orden varias veces. 
 
