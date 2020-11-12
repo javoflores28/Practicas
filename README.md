@@ -12,14 +12,14 @@
 
 ## Ejercicio 2 / RESPUESTAS
 
-1.	**¿Qué es un servidor HTTP?** 
+**1.	¿Qué es un servidor HTTP?** 
     <details>
     <summary>RESPUESTA:</summary>
     <p>Un servidor HTTP es un programa que procesa una aplicación del lado del servidor para realizar conexiones con el cliente. Este servidor se encarga de enviar         peticiones desde la conexión del cliente hasta el sistema que gestiona las peticiones para transmitir una respuesta al cliente a través de una conexión TCP. El     código recibido por el cliente se procesa a través de un navegador web (URLs) y se trasmite mediante un protocolo, generalmente HTTP.
     </p>
     </details>
 
-2.	**¿Qué son los verbos HTTP? Mencionar los más conocidos**
+**2.	¿Qué son los verbos HTTP? Mencionar los más conocidos**
     <details>
     <summary>RESPUESTA:</summary>
     <p>Son métodos de solicitudes especificas que utilizan el servicio de integración de datos en el mensaje de solicitud. Estos verbos/métodos permiten comunicar al       servidor lo que se requiere realizar con un recurso mediante una URL. Los más importantes (sobre todo para hacer aplicaciones REST) son los siguientes:
@@ -34,7 +34,7 @@
 
     **HEAD:** Este método se utiliza para obtener una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta. El servidor responde con líneas y     headers (únicamente los metadatos de la cabecera).
 
-3.	**¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**
+**3.	¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**
     <details>
     <summary>RESPUESTA:</summary>
     <p>
@@ -46,13 +46,13 @@
     Los **headers** son la parte central de los HTTP request y response, ya que transmiten información acerca del navegador del cliente, la página solicitada, del           servidor, etc. La primera línea del header (request) es el request y el resto son headers HTTP, mientras que en un header (response) la primera línea es el  Status     Code y el resto es información de la respuesta del servidor. De esta forma, los headers permiten al cliente enviar información adicional junto con una petición     o respuesta.</p>
     </details>
 
-4.	**¿Qué es un queryString? (En el contexto de una url)**
+**4.	¿Qué es un queryString? (En el contexto de una url)**
     <details>
     <summary>RESPUESTA:</summary>
     <p>  Es una cadena de consulta,  son los datos que se envían a través de la URL al realizar un request a una página web. Esto para que el servidor web pueda acceder     y manejar la información. Después del símbolo ? aparecen parejas de datos enviados. </p>
     </details>
 
-5.	**¿Qué es el responseCode? ¿Qué significado tiene los posibles valores devueltos?**
+**5.	¿Qué es el responseCode? ¿Qué significado tiene los posibles valores devueltos?**
     <details>
     <summary>RESPUESTA:</summary>
     <p>Los responseCode o Status Code, son una serie de códigos de tres cifras estandarizados y que dependen de la respuesta HTTP, indican si se ha completado         satisfactoriamente la solicitud o no.
@@ -68,7 +68,7 @@
     </details>
 
 
-6.	**¿Cómo se envía data en un Get y cómo en un POST?** 
+**6.	¿Cómo se envía data en un Get y cómo en un POST?** 
     <details>
     <summary>RESPUESTA:</summary>
     <p>
@@ -92,13 +92,13 @@
     </p>
     </details>
 
-7.	**¿Qué verbo http utiliza el navegador cuando accedemos a una página?**
+**7.	¿Qué verbo http utiliza el navegador cuando accedemos a una página?**
     <details>
     <summary>RESPUESTA:</summary>
     <p>El método/verbo GET para regresar la página que solicite el cliente o en definitiva un error.</p>
     </details>
 
-8.	**Explicar qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**
+**8.	Explicar qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**
     <details>
     <summary>RESPUESTA JSON:</summary>
     <p>
@@ -186,7 +186,7 @@
     </details>
 
 
-9.	**Explicar brevemente el estándar SOAP**
+**9.	Explicar brevemente el estándar SOAP**
     <details>
     <summary>RESPUESTA:</summary>
     <p>
@@ -205,7 +205,7 @@
 
 
 
-10.	**Explicar brevemente el estándar REST Full**
+**10.	Explicar brevemente el estándar REST Full**
     <details>
     <summary>RESPUESTA:</summary>
     <p>
@@ -220,7 +220,7 @@
     </details>
 
 
-11.	**¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
+**11.	¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
 
     <details>
     <summary>RESPUESTA:</summary>
