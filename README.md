@@ -83,9 +83,7 @@
     <li>No se pueden enviar datos binarios (archivos, imágenes...).</li> 
     
     </ul>	
-    
-    
-    
+    <br/>
     
     **POST:** Consiste en datos "ocultos" (porque el cliente no los ve) enviados por un formulario cuyo método de envío es post. Es adecuado para formularios. Los  datos no son visibles. Con el método HTTP POST también se codifica la información, pero ésta se envía a través del body del HTTP Request, por lo que no aparece en  la URL.
     
