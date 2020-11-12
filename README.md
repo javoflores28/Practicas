@@ -159,7 +159,7 @@
     ```
     <?xml version="1.0" encoding="ISO-8859-1"?>
     <nota>
-  	 <para>Pedro</para>
+  	     <para>Pedro</para>
          <de>Laura</de>
          <titulo>Recordatorio</titulo>
          <contenido>A las 7:00 pm en la puerta del teatro</contenido>
@@ -179,10 +179,10 @@
                   <precio>30.00</precio>
     	   </libro>
     	   <libro categoría="WEB">
-    		  <título lang="en">Learning XML</título>
-    		  <autor>Erik T. Ray</autor>
-    		  <año>2003</año>
-    		  <precio>39.95</precio>
+    		      <título lang="en">Learning XML</título>
+    		      <autor>Erik T. Ray</autor>
+    		      <año>2003</año>
+    		      <precio>39.95</precio>
     	   </libro>
     </libreria>
     
