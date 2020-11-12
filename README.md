@@ -240,7 +240,7 @@
 
 **En este ejercicio se requirió instalar POSTMAN para realizar los soguientes incisos:**
 
-1. Realizar un request GET a la URL: `https://reclutamiento-14cf7.firebaseio.com/personas.json`
+**1.** Realizar un request GET a la URL: `https://reclutamiento-14cf7.firebaseio.com/personas.json`
 
 **RESOLUCIÓN:** Realicé un request GET a la URL solicitada, lo que regresó fue la BD de Firebase en formato JSON.
 Screenshot:
@@ -248,7 +248,7 @@ Screenshot:
     <img src="https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/GET-1.png" width="800px"</img> 
 </div>
 
-2. Realizar un request POST a la URL anterior, y con body:
+**2.** Realizar un request POST a la URL anterior, y con body:
 {
 "nombre":"Tu nombre",
 "apellido":"Tu apellido",
@@ -263,7 +263,7 @@ Screenshot:
 </div>
 
 
-3. Realizar nuevamente un request GET a la URL: `https://reclutamiento-14cf7.firebaseio.com/personas.json` ¿Qué diferencias se observan?
+**3.** Realizar nuevamente un request GET a la URL: `https://reclutamiento-14cf7.firebaseio.com/personas.json` ¿Qué diferencias se observan?
 
 **RESOLUCIÓN:** Realicé nuevamente un request GET a la URL solicitada y me regresó la BD de Firebase actualizada en formato JSON y pude visualizar los valores que ingresé en el inciso anterior. 
 Screenshot:
