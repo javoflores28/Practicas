@@ -10,7 +10,7 @@ Instalación del ambiente: En este primer ejercicio se pide instalar el ambiente
 3.	Instalar Node.js
 
 
-## [Ejercicio2](https://docs.microsoft.com/sql/t-sql/statements/set-transaction-isolation-level-transact-sql) reference. / RESPUESTAS
+## [Ejercicio2](https://docs.microsoft.com/sql/t-sql/statements/set-transaction-isolation-level-transact-sql)/ RESPUESTAS
 
 1.	¿Qué es un servidor HTTP? 
 2.	¿Qué son los verbos HTTP? Mencionar los más conocidos
