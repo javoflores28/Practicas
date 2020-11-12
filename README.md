@@ -103,8 +103,6 @@
     <summary>RESPUESTA:</summary>
     <p>
     JSON (JavaScript Object Notation): Es un formato texto ligero del tipo clave: valor para el almacenamiento estructurado e intercambio de datos principalmente       entre un servidor y un cliente. Es muy similar a un XML, pero con una sintaxis mas clara y acortada y por lo tanto es más liviano. JSON está constituido por       dos estructuras:
-        
-    - ejemplo
     
     <ul>
     <li> Una colección de pares de nombre/valor: En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de       claves     o un array asociativo.</li>
@@ -117,19 +115,31 @@
     
     <ins>Un objeto:</ins>  conjunto desordenado de pares nombre/valor. Un objeto comienza con `{`  y termine con `}` . Cada nombre es seguido por `:` y los pares       nombre/valor están separados por una `,` 
     
-    ```
-    { "persona": {"nombre":"Javier", "profesión":"Estudiante", "ciudad":"México"}}
-    ```
+        ```
+        { "persona": {"nombre":"Javier", "profesión":"Estudiante", "ciudad":"México"}}
+        ```
 
     <ins>Un array:</ins> Una colección de valores que comienza con `[` y termina con `]` y los valores se separan por una `,`
     
-    ```
-    { "persona": [
+        ```
+        { "persona": [
                     {"nombre":"Javier", "profesión":"Estudiante", "ciudad":"México"},
                     { "nombre": "Arturo", “profesión":"Estudiante"}
-    ]}
-    ```
-    Un valor: Puede ser una cadena de caracteres con comillas dobles, o un número, o true o false o null, o un objeto o un array. Estas estructuras pueden             anidarse. 
+        ]}
+       ```
+    
+    <ins>Un valor:</ins> Puede ser una cadena de caracteres con comillas dobles, o un número, o true o false o null, o un objeto o un array. Estas estructuras          pueden             anidarse. 
+    
+       ```
+       ventana" : {
+       "titulo": "Gestión Articulos",
+       "alto": 300,
+       "ancho": 500,
+       "menu": null,
+       "modal": true,
+       "botones": ["ok", "cancel"]}}
+       ```
+    
     </p>
     </details>
 
