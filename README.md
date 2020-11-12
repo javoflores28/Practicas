@@ -71,6 +71,17 @@
 
 
 6.	**¿Cómo se envía data en un Get y cómo en un POST?** 
+
+GET: Lleva los datos de forma "visible" al cliente (navegador web). El medio de envío es la URL. Los datos los puede ver cualquiera. El método GET envía la información codificada del usuario en el header del HTTP request, directamente en la URL. La página web y la información codificada se separan por un interrogante ?
+•	El método GET envía la información en la propia URL, estando limitada a 2000 caracteres.
+•	La información es visible por lo que con este método nunca se envía información sensible.
+•	No se pueden enviar datos binarios (archivos, imágenes...).
+
+POST: Consiste en datos "ocultos" (porque el cliente no los ve) enviados por un formulario cuyo método de envío es post. Es adecuado para formularios. Los datos no son visibles. Con el método HTTP POST también se codifica la información, pero ésta se envía a través del body del HTTP Request, por lo que no aparece en la URL.
+•	El método POST no tiene límite de cantidad de información a enviar.
+•	La información proporcionada no es visible, por lo que se puede enviar información sensible.
+•	Se puede usar para enviar texto normal así como datos binarios (archivos, imágenes...).
+
 7.	**¿Qué verbo http utiliza el navegador cuando accedemos a una página?**
 8.	**Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**
 9.	**Explicar brevemente el estándar SOAP**
