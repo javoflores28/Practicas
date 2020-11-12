@@ -155,7 +155,7 @@
     - **Cuerpo:** es el contenido de información del documento, organizado como un árbol único de elementos marcados.
     
     **Ejemplo con prólogo:** 
-    
+    ```
     <?xml version="1.0" encoding="ISO-8859-1"?>
     <nota>
   	 <para>Pedro</para>
@@ -163,6 +163,8 @@
          <titulo>Recordatorio</titulo>
          <contenido>A las 7:00 pm en la puerta del teatro</contenido>
     </nota>
+    
+    ```
 
     </p>
     </details>
