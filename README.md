@@ -71,7 +71,7 @@
 
 **RESOLUCIÓN:** Realicé un request GET a la URL solicitada, lo que regresó fue la BD de Firebase en formato JSON.
 Screenshot:
-![GET1](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/GET-1.png)  
+![GET1](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/GET-1.png)200x150 
 
 2. Realizar un request POST a la URL anterior, y con body:
 {
