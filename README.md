@@ -106,29 +106,29 @@
     <p>El método/verbo GET para regresar la página que solicite el cliente o en definitiva un error.</p>
     </details>
 
-8.	**Explicar qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**
+**8.	Explicar qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**
     <details>
     <summary>RESPUESTA JSON:</summary>
     <p>
     
-    **JSON** (JavaScript Object Notation): Es un formato texto ligero del tipo clave: valor para el almacenamiento estructurado e intercambio de datos principalmente       entre un servidor y un cliente. Es muy similar a un XML, pero con una sintaxis mas clara y acortada y por lo tanto es más liviano. JSON está constituido por       dos estructuras:
+   **JSON** (JavaScript Object Notation): Es un formato texto ligero del tipo clave: valor para el almacenamiento estructurado e intercambio de datos principalmente       entre un servidor y un cliente. Es muy similar a un XML, pero con una sintaxis mas clara y acortada y por lo tanto es más liviano. JSON está constituido por       dos estructuras:
     
     
-    - **Una colección de pares de nombre/valor:** En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de       claves     o un array asociativo.</li>
-    - **Una lista ordenada de valores:** En la mayoría de los lenguajes, esto se implementa como arrays, vectores, listas o secuencias. </li>
+   - **Una colección de pares de nombre/valor:** En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de       claves     o un array asociativo.</li>
+   - **Una lista ordenada de valores:** En la mayoría de los lenguajes, esto se implementa como arrays, vectores, listas o secuencias. </li>
     <br/>
     
    
-    **Ejemplos:**
+   **Ejemplos:**
     
-    <ins>Un objeto:</ins>  conjunto desordenado de pares nombre/valor. Un objeto comienza con `{`  y termine con `}` . Cada nombre es seguido por `:` y los pares       nombre/valor están separados por una `,` 
+   <ins>Un objeto:</ins>  conjunto desordenado de pares nombre/valor. Un objeto comienza con `{`  y termine con `}` . Cada nombre es seguido por `:` y los pares       nombre/valor están separados por una `,` 
     
         
         { "persona": {"nombre":"Javier", "profesión":"Estudiante", "ciudad":"México"}}
         
         
 
-    <ins>Un array:</ins> Una colección de valores que comienza con `[` y termina con `]` y los valores se separan por una `,`
+   <ins>Un array:</ins> Una colección de valores que comienza con `[` y termina con `]` y los valores se separan por una `,`
     
         
         { "persona": [
@@ -137,7 +137,7 @@
         ]}
         
     
-    <ins>Un valor:</ins> Puede ser una cadena de caracteres con comillas dobles, o un número, o true o false o null, o un objeto o un array. Estas estructuras          pueden             anidarse. 
+   <ins>Un valor:</ins> Puede ser una cadena de caracteres con comillas dobles, o un número, o true o false o null, o un objeto o un array. Estas estructuras          pueden             anidarse. 
     
        ```
        ventana" : {
@@ -148,22 +148,22 @@
            "modal": true,
            "botones": ["ok", "cancel"]}}
        ```
-    </p>
-    </details>
+   </p>
+   </details>
     
-    <details>
-    <summary>RESPUESTA XML:</summary>
-    <p>
+   <details>
+   <summary>RESPUESTA XML:</summary>
+   <p>
     
-    **XML (Extensible Markup Language):** Es un metalenguaje, un estándar que estructura el intercambio de información entre las diferentes plataformas, que define     un conjunto de reglas para la codificación de documentos. XML está constituido por dos estructuras:
+   **XML (Extensible Markup Language):** Es un metalenguaje, un estándar que estructura el intercambio de información entre las diferentes plataformas, que define     un conjunto de reglas para la codificación de documentos. XML está constituido por dos estructuras:
 
-    - **Prólogo (opcional):** contiene una secuencia de instrucciones de procesamiento y/o declaración del tipo de documento. Se puede dividir en dos partes:
-        - Declaración XML: Establece la versión de xml, el tipo de codificación y si es un documento autónomo.                                                             
+   - **Prólogo (opcional):** contiene una secuencia de instrucciones de procesamiento y/o declaración del tipo de documento. Se puede dividir en dos partes:
+        - Declaración XML: Establece la versión de xml, el tipo de codificación y si es un documento autónomo.                                                            
         - Declaración de tipo de documento: Establece el tipo de documento que es.
     - **Cuerpo:** es el contenido de información del documento, organizado como un árbol único de elementos marcados.
     <br/>
     
-    <ins>**Ejemplo con prólogo:**</ins>
+   <ins>**Ejemplo con prólogo:**</ins>
     ```
     <?xml version="1.0" encoding="ISO-8859-1"?>
     <nota>
@@ -174,9 +174,9 @@
     </nota>
     
     ```
-    <br/>
+   <br/>
     
-     <ins>**Ejemplo sin prólogo:**</ins>
+    <ins>**Ejemplo sin prólogo:**</ins>
      
     ```
     <libreria>
