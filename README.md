@@ -98,17 +98,16 @@
     <p>El método/verbo GET para regresar la página que solicite el cliente o en definitiva un error.</p>
     </details>
 
-8.	**Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**
+8.	**Explicar qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**
     <details>
     <summary>RESPUESTA JSON:</summary>
     <p>
     
     **JSON** (JavaScript Object Notation): Es un formato texto ligero del tipo clave: valor para el almacenamiento estructurado e intercambio de datos principalmente       entre un servidor y un cliente. Es muy similar a un XML, pero con una sintaxis mas clara y acortada y por lo tanto es más liviano. JSON está constituido por       dos estructuras:
     
-    <ul>
-    <li> Una colección de pares de nombre/valor: En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de       claves     o un array asociativo.</li>
-    <li>Una lista ordenada de valores: En la mayoría de los lenguajes, esto se implementa como arrays, vectores, listas o secuencias. </li>
-    </ul>
+    
+    - **Una colección de pares de nombre/valor:** En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de       claves     o un array asociativo.</li>
+    - **Una lista ordenada de valores:** En la mayoría de los lenguajes, esto se implementa como arrays, vectores, listas o secuencias. </li>
     <br/>
     
    
@@ -141,6 +140,8 @@
            "modal": true,
            "botones": ["ok", "cancel"]}}
        ```
+       
+       
     </p>
     </details>
 
