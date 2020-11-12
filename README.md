@@ -234,8 +234,6 @@
 
 
 
-
-
 ## Ejercicio 3
 
 **En este ejercicio se requirió instalar POSTMAN para realizar los soguientes incisos:**
