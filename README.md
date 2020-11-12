@@ -10,7 +10,7 @@ Instalación del ambiente: En este primer ejercicio se pide instalar el ambiente
 3.	Instalar Node.js
 
 
-## [Ejercicio2](https://docs.microsoft.com/sql/t-sql/statements/set-transaction-isolation-level-transact-sql)/ RESPUESTAS
+## Ejercicio 2 / RESPUESTAS
 
 1.	¿Qué es un servidor HTTP? 
 2.	¿Qué son los verbos HTTP? Mencionar los más conocidos
@@ -54,13 +54,13 @@ RESOLUCIÓN: Realicé nuevamente un request GET a la URL solicitada y me regres�
 Screenshot:
 ![GET2](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/GET-2.png)  
 
-## Ejercicio 4
+## [Ejercicio 4](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/mostrarPersonas.js)
 
 En esta práctica era necesario hacer un script que realizara una solicitud GET a un servidor en Firebase y mostrar en la consola el resultado. Me pedían utilizar el paquete `request-promise`, por lo que decidí hacer un paquete de Node.js con `npm init` e instalé las dependencia junto a `request`.
 
 Se debe ejecutar el script primero instalando las dependencias con `npm init` y después corriendo el archivo con `node mostrarPersonas.js` desde la terminal, ubicándose en la carpeta del sricpt.
 
-## Ejercicio 5
+## [Ejercicio 5](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/servidor.js)
 
 En este ejercicio era necesario crear un servidor en Node.js usando la librería `express` para hacer solicitudes POST al servidor de Firebase sólo si los datos que le fueron mandados cumplían con algunas reglas de validación. 
 
@@ -68,7 +68,7 @@ Como fueron necesarias algunas dependencias, creé otro paquete de Node.js con `
 
 Para ejecutarlo es necesario instalar las dependencias del paquete con `npm install` y correr el servidor con `node server.js` desde la terminal, ubicándose en la carpeta del sricpt.
 
-## Ejercicio 6
+## [Ejercicio 6](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/crearPersonas.html)
 
 Está práctica consitió en realizar un archivo `crearPersonas.html` que tuviera 3 inputs para nombre, apellido y dni, y un botón para enviar los datos al servidor del ejercicio anterior.
 
