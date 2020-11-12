@@ -96,6 +96,11 @@
     </details>
 
 7.	**¿Qué verbo http utiliza el navegador cuando accedemos a una página?**
+    <details>
+    <summary>RESPUESTA:</summary>
+    <p>El método/verbo GET para regresar la página que solicite el cliente o en definitiva un error.</p>
+    </details>
+
 8.	**Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**
 9.	**Explicar brevemente el estándar SOAP**
 10.	**Explicar brevemente el estándar REST Full**
