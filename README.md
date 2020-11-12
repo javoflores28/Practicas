@@ -60,7 +60,7 @@
     <p>  Es una cadena de consulta,  son los datos que se envían a través de la URL al realizar un request a una página web. Esto para que el servidor web pueda acceder     y manejar la información. Después del símbolo ? aparecen parejas de datos enviados. </p>
     </details>
 
-5.	**¿Qué es el responseCode? ¿Qué significado tiene los posibles valores devueltos?**
+**5.	¿Qué es el responseCode? ¿Qué significado tiene los posibles valores devueltos?**
     <details>
     <summary>RESPUESTA:</summary>
     <p>Los responseCode o Status Code, son una serie de códigos de tres cifras estandarizados y que dependen de la respuesta HTTP, indican si se ha completado         satisfactoriamente la solicitud o no.
@@ -76,31 +76,31 @@
     </details>
 
 
-6.	**¿Cómo se envía data en un Get y cómo en un POST?** 
+**6.	¿Cómo se envía data en un Get y cómo en un POST?** 
     <details>
     <summary>RESPUESTA:</summary>
     <p>
         
-     **GET**: Lleva los datos de forma "visible" al cliente (navegador web). El medio de envío es la URL. Los datos los puede ver cualquiera. El método GET envía la información codificada del usuario en el header del HTTP request, directamente en la URL. La página web y la información codificada se separan por un interrogante ?
+   **GET**: Lleva los datos de forma "visible" al cliente (navegador web). El medio de envío es la URL. Los datos los puede ver cualquiera. El método GET envía la información codificada del usuario en el header del HTTP request, directamente en la URL. La página web y la información codificada se separan por un interrogante ?
      
-    <ul>
-    <li>El método GET envía la información en la propia URL, estando limitada a 2000 caracteres.</li>
-    <li>La información es visible por lo que con este método nunca se envía información sensible.</li>
-    <li>No se pueden enviar datos binarios (archivos, imágenes...).</li>
-    </ul>	
-    <br/>
+   <ul>
+   <li>El método GET envía la información en la propia URL, estando limitada a 2000 caracteres.</li>
+   <li>La información es visible por lo que con este método nunca se envía información sensible.</li>
+   <li>No se pueden enviar datos binarios (archivos, imágenes...).</li>
+   </ul>	
+   <br/>
     
-    **POST:** Consiste en datos "ocultos" (porque el cliente no los ve) enviados por un formulario cuyo método de envío es post. Es adecuado para formularios. Los  datos no son visibles. Con el método HTTP POST también se codifica la información, pero ésta se envía a través del body del HTTP Request, por lo que no aparece en  la URL.
+   **POST:** Consiste en datos "ocultos" (porque el cliente no los ve) enviados por un formulario cuyo método de envío es post. Es adecuado para formularios. Los  datos no son visibles. Con el método HTTP POST también se codifica la información, pero ésta se envía a través del body del HTTP Request, por lo que no aparece en  la URL.
     
-    <ul>
-    <li>El método POST no tiene límite de cantidad de información a enviar.</li>
-    <li>La información proporcionada no es visible, por lo que se puede enviar información sensible.</li>
-    <li>Se puede usar para enviar texto normal así como datos binarios (archivos, imágenes...).</li> 
-    </ul>	
-    </p>
-    </details>
+   <ul>
+   <li>El método POST no tiene límite de cantidad de información a enviar.</li>
+   <li>La información proporcionada no es visible, por lo que se puede enviar información sensible.</li>
+   <li>Se puede usar para enviar texto normal así como datos binarios (archivos, imágenes...).</li> 
+   </ul>	
+   </p>
+   </details>
 
-7.	**¿Qué verbo http utiliza el navegador cuando accedemos a una página?**
+**7.	¿Qué verbo http utiliza el navegador cuando accedemos a una página?**
     <details>
     <summary>RESPUESTA:</summary>
     <p>El método/verbo GET para regresar la página que solicite el cliente o en definitiva un error.</p>
