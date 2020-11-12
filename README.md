@@ -1,7 +1,7 @@
 ## Prácticas ProContacto:
 
 
-## Ejercicio 1 [Ejercicio1](https://docs.microsoft.com/sql/t-sql/statements/set-transaction-isolation-level-transact-sql) reference.
+## Ejercicio 1 
 
 
 Instalación del ambiente: En este primer ejercicio se pide instalar el ambiente para poder realizar los siguientes ejercicios.
@@ -10,7 +10,7 @@ Instalación del ambiente: En este primer ejercicio se pide instalar el ambiente
 3.	Instalar Node.js
 
 
-## Ejercicio 2 / RESPUESTAS
+## [Ejercicio2](https://docs.microsoft.com/sql/t-sql/statements/set-transaction-isolation-level-transact-sql) reference. / RESPUESTAS
 
 1.	¿Qué es un servidor HTTP? 
 2.	¿Qué son los verbos HTTP? Mencionar los más conocidos
