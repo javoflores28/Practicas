@@ -37,6 +37,7 @@ Screenshot:
 
 RESOLUCIÓN: Realicé un POST a la URL ingresando mi nombre, apellido y un dni, esto me regresó el Id de mi nombre y se realizó el envío de los datos que ingrese a la BD.
 Screenshot:
+<img width=“964” alt=“java 8 and prio java 8  array review example” src=“https://github.com/javoflores28/Practicas/blob/master/Ejercicios/screenshots/POST.png”>
 ![POST](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/screenshots/POST.png)
 
 3. Realizar nuevamente un request GET a la URL: `https://reclutamiento-14cf7.firebaseio.com/personas.json` ¿Qué diferencias se observan?
