@@ -78,8 +78,7 @@
     <ul>
     <li>El método GET envía la información en la propia URL, estando limitada a 2000 caracteres.</li>
     <li>La información es visible por lo que con este método nunca se envía información sensible.</li>
-    <li>No se pueden enviar datos binarios (archivos, imágenes...).</li> 
-    
+    <li>No se pueden enviar datos binarios (archivos, imágenes...).</li>
     </ul>	
     <br/>
     
@@ -108,7 +107,9 @@
     <ul>
     <li> Una colección de pares de nombre/valor: En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de       claves     o un array asociativo.</li>
     <li>Una lista ordenada de valores: En la mayoría de los lenguajes, esto se implementa como arrays, vectores, listas o secuencias. </li>
-    </ul>	
+    </ul>
+    <br/>
+    
    
     **Ejemplos:**
     
