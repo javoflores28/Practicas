@@ -44,11 +44,11 @@
 
 ## Ejercicio 3
 
-En este ejercicio se requirió instalar POSTMAN para realizar los soguientes incisos:
+**En este ejercicio se requirió instalar POSTMAN para realizar los soguientes incisos:**
 
 1. Realizar un request GET a la URL: `https://reclutamiento-14cf7.firebaseio.com/personas.json`
 
-RESOLUCIÓN: Realicé un request GET a la URL solicitada, lo que regresó fue la BD de Firebase en formato JSON.
+**RESOLUCIÓN:** Realicé un request GET a la URL solicitada, lo que regresó fue la BD de Firebase en formato JSON.
 Screenshot:
 ![GET1](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/GET-1.png)  
 
@@ -60,13 +60,13 @@ Screenshot:
 }
 
 
-RESOLUCIÓN: Realicé un POST a la URL ingresando mi nombre, apellido y un dni, esto me regresó el Id de mi nombre y se realizó el envío de los datos que ingrese a la BD.
+**RESOLUCIÓN:** Realicé un POST a la URL ingresando mi nombre, apellido y un dni, esto me regresó el Id de mi nombre y se realizó el envío de los datos que ingrese a la BD.
 Screenshot:
 ![POST](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/POST1.png)
 
 3. Realizar nuevamente un request GET a la URL: `https://reclutamiento-14cf7.firebaseio.com/personas.json` ¿Qué diferencias se observan?
 
-RESOLUCIÓN: Realicé nuevamente un request GET a la URL solicitada y me regresó la BD de Firebase actualizada en formato JSON y pude visualizar los valores que ingresé en el inciso anterior. 
+**RESOLUCIÓN:** Realicé nuevamente un request GET a la URL solicitada y me regresó la BD de Firebase actualizada en formato JSON y pude visualizar los valores que ingresé en el inciso anterior. 
 Screenshot:
 ![GET2](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/GET-2.png)  
 
