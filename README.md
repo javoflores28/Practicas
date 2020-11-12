@@ -8,7 +8,7 @@ Instalación del ambiente: En este primer ejercicio se pide instalar el ambiente
 3.	Instalar Node.js
 
 
-## Respuestas ejercicio 2
+## Ejercicio 2 / RESPUESTAS
 
 1.	¿Qué es un servidor HTTP? 
 2.	¿Qué son los verbos HTTP? Mencionar los más conocidos
