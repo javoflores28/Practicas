@@ -34,8 +34,12 @@
     **DELETE:** Este método se utiliza para eliminar un recurso específico de una ubicación dada por la URL.
 
     **HEAD:** Este método se utiliza para obtener una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta. El servidor responde con líneas y     headers (únicamente los metadatos de la cabecera).
+    </p>
+    </details>
+    
+    
 
-3.	**¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**
+**3.	¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**
 
     <details>
     <summary>RESPUESTA:</summary>
@@ -45,7 +49,8 @@
     
     Un **response** es la respuesta del servidor hacia el cliente habiendo recibido un request previo. 
     
-    Los **headers** son la parte central de los HTTP request y response, ya que transmiten información acerca del navegador del cliente, la página solicitada, del           servidor, etc. La primera línea del header (request) es el request y el resto son headers HTTP, mientras que en un header (response) la primera línea es el  Status     Code y el resto es información de la respuesta del servidor. De esta forma, los headers permiten al cliente enviar información adicional junto con una petición     o respuesta.</p>
+    Los **headers** son la parte central de los HTTP request y response, ya que transmiten información acerca del navegador del cliente, la página solicitada, del           servidor, etc. La primera línea del header (request) es el request y el resto son headers HTTP, mientras que en un header (response) la primera línea es el  Status     Code y el resto es información de la respuesta del servidor. De esta forma, los headers permiten al cliente enviar información adicional junto con una petición     o respuesta.
+    </p>
     </details>
 
 4.	**¿Qué es un queryString? (En el contexto de una url)**
