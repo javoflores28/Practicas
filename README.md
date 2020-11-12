@@ -195,9 +195,9 @@
 
 
 **9.	Explicar brevemente el estándar SOAP**
-    <details>
-    <ummary>RESPUESTA:</summary>
-    <p>
+   <details>
+   <ummary>RESPUESTA:</summary>
+   <p>
       
    **SOAP** es un estándar basado en XML para la transmisión de mensajes en HTTP y otros protocolos de Internet. Es un protocolo ligero para el intercambio de         información en un entorno descentralizado y distribuido. Se basa en XML y consta de tres partes:
     
