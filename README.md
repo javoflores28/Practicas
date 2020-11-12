@@ -53,8 +53,9 @@
     </details>
 
 5.	**¿Qué es el responseCode? ¿Qué significado tiene los posibles valores devueltos?**
-
-    Los responseCode o Status Code, son una serie de códigos de tres cifras estandarizados y que dependen de la respuesta HTTP, indican si se ha completado         satisfactoriamente la solicitud o no.
+    <details>
+    <summary>RESPUESTA:</summary>
+    <p>Los responseCode o Status Code, son una serie de códigos de tres cifras estandarizados y que dependen de la respuesta HTTP, indican si se ha completado         satisfactoriamente la solicitud o no.
     Los posibles valores devueltos: 
     <ul>
     <li>Respuestas informativas (100–199)</li>
@@ -63,6 +64,10 @@
     <li>Errores de los clientes (400–499)</li>
     <li>Errores de los servidores (500–599)</li>    
     </ul>
+    </p>
+    </details>
+
+    
 
 
 6.	**¿Cómo se envía data en un Get y cómo en un POST?** 
