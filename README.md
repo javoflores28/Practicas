@@ -35,6 +35,7 @@
     **HEAD:** Este método se utiliza para obtener una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta. El servidor responde con líneas y     headers (únicamente los metadatos de la cabecera).
 
 **3.	¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**
+
     <details>
     <summary>RESPUESTA:</summary>
     <p>
