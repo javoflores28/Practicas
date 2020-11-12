@@ -13,6 +13,11 @@
 ## Ejercicio 2 / RESPUESTAS
 
 1.	**¿Qué es un servidor HTTP?**
+    <details>
+    <summary>Respuesta</summary>
+    <p>Un servidor HTTP es un programa que procesa una aplicación del lado del servidor para realizar conexiones con el cliente. Este servidor se encarga de enviar         peticiones desde la conexión del cliente hasta el sistema que gestiona las peticiones para transmitir una respuesta al cliente a través de una conexión TCP. El     código recibido por el cliente se procesa a través de un navegador web (URLs) y se trasmite mediante un protocolo, generalmente HTTP.
+</p>
+         </details>
 
     Un servidor HTTP es un programa que procesa una aplicación del lado del servidor para realizar conexiones con el cliente. Este servidor se encarga de enviar         peticiones desde la conexión del cliente hasta el sistema que gestiona las peticiones para transmitir una respuesta al cliente a través de una conexión TCP. El     código recibido por el cliente se procesa a través de un navegador web (URLs) y se trasmite mediante un protocolo, generalmente HTTP.
 
@@ -71,7 +76,7 @@
 
 **RESOLUCIÓN:** Realicé un request GET a la URL solicitada, lo que regresó fue la BD de Firebase en formato JSON.
 Screenshot:
-![GET1](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/GET-1.png "Screenshot 1") 
+![GET1](https://github.com/javoflores28/Practicas/blob/master/Ejercicios/ScreenShots/GET-1.png) 
 
 2. Realizar un request POST a la URL anterior, y con body:
 {
