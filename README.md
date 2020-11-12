@@ -38,6 +38,7 @@
     <details>
     <summary>RESPUESTA:</summary>
     <p>
+    
     Un **request** es un mensaje/petición enviado por un cliente para iniciar una acción en el servidor.
     
     Un **response** es la respuesta del servidor hacia el cliente habiendo recibido un request previo. 
