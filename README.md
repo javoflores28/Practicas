@@ -137,7 +137,7 @@
 11.	**¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
 
     <details>
-    <summary>Title 1</summary>
+    <summary>RESPUESTA:</summary>
     <p>
     
     Los **headers** en un request, son los parámetros que se envían en una petición o respuesta HTTP al cliente o al servidor para proporcionar información         esencial       sobre la transacción en curso. Estas cabeceras proporcionan información mediante la sintaxis 'Cabecera: Valor' y son enviadas automáticamente por el navegador     o el servidor Web.
