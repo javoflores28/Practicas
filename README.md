@@ -172,14 +172,6 @@
      
     ```
     <libreria>
-   
-    	   <libro categoría="COOKING">
-                  <título lang="en">Italian food</título>
-                  <autor>Giada De Laurentiis</autor>
-                  <año>2005</año>
-                  <precio>30.00</precio>
-    	   </libro>
-           
     	   <libro categoría="WEB">
     		      <título lang="en">Learning XML</título>
     		      <autor>Erik T. Ray</autor>
