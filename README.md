@@ -151,7 +151,19 @@
 
     - **Prólogo (opcional):** contiene una secuencia de instrucciones de procesamiento y/o declaración del tipo de documento. Se puede dividir en dos partes:
         - Declaración XML: Establece la versión de xml, el tipo de codificación y si es un documento autónomo.
-	    - Declaración de tipo de documento: Establece el tipo de documento que es.
+	- Declaración de tipo de documento: Establece el tipo de documento que es.
+    - **Cuerpo:** es el contenido de información del documento, organizado como un árbol único de elementos marcados.
+    
+    **Ejemplo con prólogo:** 
+    
+    <?xml version="1.0" encoding="ISO-8859-1"?>
+    <nota>
+  	 <para>Pedro</para>
+         <de>Laura</de>
+         <titulo>Recordatorio</titulo>
+         <contenido>A las 7:00 pm en la puerta del teatro</contenido>
+    </nota>
+
     </p>
     </details>
 
