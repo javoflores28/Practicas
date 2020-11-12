@@ -123,7 +123,7 @@
 
 10.	**Explicar brevemente el estándar REST Full**
     <details>
-    <summary>Title 1</summary>
+    <summary>RESPUESTA:</summary>
     <p>
     Es una arquitectura para aplicaciones basadas en redes (como Internet), sus siglas significan Representational State Transfer. Los servicios Web RESTful se         basan en recursos. Un recurso es una entidad, la cual se almacena principalmente en un servidor y el cliente solicita el recurso utilizando servicios Web           RESTful. Sus principales características:
     <ul>
