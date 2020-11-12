@@ -42,19 +42,19 @@
 
 **3.	¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**
 
-    <details>
-    <summary>RESPUESTA:</summary>
-    <p>
+   <details>
+   <summary>RESPUESTA:</summary>
+   <p>
     
-    Un **request** es un mensaje/petición enviado por un cliente para iniciar una acción en el servidor.
+   Un **request** es un mensaje/petición enviado por un cliente para iniciar una acción en el servidor.
     
-    Un **response** es la respuesta del servidor hacia el cliente habiendo recibido un request previo. 
+   Un **response** es la respuesta del servidor hacia el cliente habiendo recibido un request previo. 
     
-    Los **headers** son la parte central de los HTTP request y response, ya que transmiten información acerca del navegador del cliente, la página solicitada, del           servidor, etc. La primera línea del header (request) es el request y el resto son headers HTTP, mientras que en un header (response) la primera línea es el  Status     Code y el resto es información de la respuesta del servidor. De esta forma, los headers permiten al cliente enviar información adicional junto con una petición     o respuesta.
+   Los **headers** son la parte central de los HTTP request y response, ya que transmiten información acerca del navegador del cliente, la página solicitada, del           servidor, etc. La primera línea del header (request) es el request y el resto son headers HTTP, mientras que en un header (response) la primera línea es el  Status     Code y el resto es información de la respuesta del servidor. De esta forma, los headers permiten al cliente enviar información adicional junto con una petición     o respuesta.
     </p>
     </details>
 
-4.	**¿Qué es un queryString? (En el contexto de una url)**
+**4.	¿Qué es un queryString? (En el contexto de una url)**
     <details>
     <summary>RESPUESTA:</summary>
     <p>  Es una cadena de consulta,  son los datos que se envían a través de la URL al realizar un request a una página web. Esto para que el servidor web pueda acceder     y manejar la información. Después del símbolo ? aparecen parejas de datos enviados. </p>
