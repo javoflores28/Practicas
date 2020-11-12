@@ -163,7 +163,8 @@
     <br/>
     
    <ins>**Ejemplo con prólogo:**</ins>
-    ```
+   
+    
     <?xml version="1.0" encoding="ISO-8859-1"?>
     <nota>
   	     <para>Pedro</para>
@@ -171,7 +172,7 @@
          <titulo>Recordatorio</titulo>
          <contenido>A las 7:00 pm en la puerta del teatro</contenido>
     </nota>
-    ```
+    
    <br/>
     
    <ins>**Ejemplo sin prólogo:**</ins>
@@ -225,15 +226,15 @@
     </details>
 
 
-11.	**¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
+**11.	¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
 
-    <details>
-    <summary>RESPUESTA:</summary>
-    <p>
+   <details>
+   <summary>RESPUESTA:</summary>
+   <p>
     
-    Los **headers** en un request, son los parámetros que se envían en una petición o respuesta HTTP al cliente o al servidor para proporcionar información         esencial       sobre la transacción en curso. Estas cabeceras proporcionan información mediante la sintaxis 'Cabecera: Valor' y son enviadas automáticamente por el navegador     o el servidor Web.
+   Los **headers** en un request, son los parámetros que se envían en una petición o respuesta HTTP al cliente o al servidor para proporcionar información         esencial       sobre la transacción en curso. Estas cabeceras proporcionan información mediante la sintaxis 'Cabecera: Valor' y son enviadas automáticamente por el navegador     o el servidor Web.
 
-    **Content-Type** es la propiedad del header que se usa para indicar el media type del recurso, dice al cliente que tipo de contenido será retornado.</p>
+   **Content-Type** es la propiedad del header que se usa para indicar el media type del recurso, dice al cliente que tipo de contenido será retornado.</p>
      </details>
 
 
