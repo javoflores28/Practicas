@@ -50,7 +50,7 @@
     <li>Respuestas satisfactorias (200–299)</li>
     <li>Redirecciones (300–399)</li>
     <li>Errores de los clientes (400–499)</li>
-    <li>Errores de los servidores (500–599).</li>    
+    <li>Errores de los servidores (500–599)</li>    
     </ul>
 
 
