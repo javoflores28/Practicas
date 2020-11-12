@@ -122,6 +122,20 @@
 
 
 10.	**Explicar brevemente el estándar REST Full**
+    <details>
+    <summary>Title 1</summary>
+    <p>
+    Es una arquitectura para aplicaciones basadas en redes (como Internet), sus siglas significan Representational State Transfer. Los servicios Web RESTful se         basan en recursos. Un recurso es una entidad, la cual se almacena principalmente en un servidor y el cliente solicita el recurso utilizando servicios Web           RESTful. Sus principales características:
+    <ul>
+    <li>Tiene cinco operaciones típicas: listar, crear, leer, actualizar y borrar</li>
+    <li>Cada operación requiere de dos cosas: El método URI y HTTP</li>
+    <li>El URI es un sustantivo que contiene el nombre del recurso</li>
+    <li>El método HTTP es un verbo</li>
+    </ul>	
+    </p>
+    </details>
+
+
 11.	**¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
 
 
