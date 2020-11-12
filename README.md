@@ -1,6 +1,13 @@
 ## Prácticas ProContacto:
 
 
+## Ejercicio 1 
+Instalación del ambiente: En este primer ejercicio se pide instalar el ambiente para poder realizar los siguientes ejercicios.
+1.	Instalar el IDE Visual Studio Code.
+2.	Instalar GIT y GIT Bash.
+3.	Instalar Node.js
+
+
 ## Respuestas ejercicio 2
 
 1.	¿Qué es un servidor HTTP? 
