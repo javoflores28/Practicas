@@ -153,6 +153,7 @@
         - Declaración XML: Establece la versión de xml, el tipo de codificación y si es un documento autónomo.
 	- Declaración de tipo de documento: Establece el tipo de documento que es.
     - **Cuerpo:** es el contenido de información del documento, organizado como un árbol único de elementos marcados.
+    <br/>
     
     <ins>**Ejemplo con prólogo:**</ins>
     ```
@@ -166,7 +167,8 @@
     
     ```
     <br/>
-    <ins>**Ejemplo sin prologo:**</ins>
+     <ins>**Ejemplo sin prólogo:**</ins>
+     
     ```
     <libreria>
     	   <libro categoría="COOKING">
@@ -182,7 +184,9 @@
     		  <precio>39.95</precio>
     	   </libro>
     </libreria>
+    
     ```
+    
     </p>
     </details>
 
