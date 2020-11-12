@@ -132,12 +132,12 @@
     
        ```
        ventana" : {
-       "titulo": "Gestión Articulos",
-       "alto": 300,
-       "ancho": 500,
-       "menu": null,
-       "modal": true,
-       "botones": ["ok", "cancel"]}}
+           "titulo": "Gestión Articulos",
+           "alto": 300,
+           "ancho": 500,
+           "menu": null,
+           "modal": true,
+           "botones": ["ok", "cancel"]}}
        ```
     </p>
     </details>
