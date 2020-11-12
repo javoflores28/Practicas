@@ -103,6 +103,7 @@
     <summary>RESPUESTA:</summary>
     <p>
     JSON (JavaScript Object Notation): Es un formato texto ligero del tipo clave: valor para el almacenamiento estructurado e intercambio de datos principalmente       entre un servidor y un cliente. Es muy similar a un XML, pero con una sintaxis mas clara y acortada y por lo tanto es más liviano. JSON está constituido por       dos estructuras:
+    - ejemplo -
     
     <ul>
     <li> Una colección de pares de nombre/valor: En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de       claves     o un array asociativo.</li>
